@@ -1,4 +1,5 @@
 provider "aws" {
+  # prueba git
   region     = "us-west-1"
   alias      = "west1"
   access_key = "AKIAXOSVOTD3JS5YWZ75"
