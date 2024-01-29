@@ -10,8 +10,6 @@ terraform {
 provider "aws" {
   region     = "us-west-1"
   alias      = "west1"
-  access_key = "AKIAXOSVOTD3JS5YWZ75"
-  secret_key = "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"
 }
 
 resource "aws_db_instance" "default" {
